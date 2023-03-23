@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(to bottom, #3f2b96, #a8c0ff);
+  padding: 0.5rem 2rem 1.1rem 2rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #0e1c3d;
+  font-size: 13px;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto 0;
+}
+
+
+
+#clicks {
+  position: absolute;
+  left: 47.5%;
+  bottom: 11%;
+  color: rgb(73, 126, 0);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+/* display: grid;
+  grid-template-columns: repeat(3, minmax(4.3rem, auto));
+  grid-template-rows: repeat(3, minmax(3rem, auto)); */
